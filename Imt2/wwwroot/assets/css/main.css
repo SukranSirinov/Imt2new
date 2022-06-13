@@ -1,0 +1,285 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header .navbar .container .navbar-nav .nav-item .nav-link {
+  font-size: 19px;
+  color: black;
+}
+
+main .slider {
+  position: relative;
+  min-height: 50vh;
+  background-image: url(../img/car01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main .slider .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .slider .container .title {
+  position: absolute;
+  margin-top: 10%;
+}
+
+main .slider .container .title h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+main .slider .container .title p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+main .slider .container .card {
+  position: absolute;
+  width: 20%;
+  left: 65%;
+  margin-top: 270px;
+}
+
+main .slider .container .card #form {
+  border: 1px solid blue;
+}
+
+main .offers {
+  width: 100%;
+  padding: 100px 0px;
+}
+
+main .offers .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .offers .container h1 {
+  color: #162447;
+}
+
+main .offers .container > p {
+  color: #5b657e;
+  width: 50%;
+  text-align: center;
+}
+
+main .offers .container .col-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .offers .container .col-12 .box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 70px;
+}
+
+main .offers .container .col-12 .box-container .box-item {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: -15px;
+  margin-left: -15px;
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+main .offers .container .col-12 .box-container .box-item i {
+  font-size: 18px;
+  background: #2842cd;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+}
+
+main .offers .container .col-12 .box-container .box-item h4 {
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+main .offers .container .col-12 .box-container .box-item p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+}
+
+main .offers .container .col-12 .box-container .box-img {
+  width: 30%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .vehicle .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .vehicle .container h1 {
+  text-align: center;
+}
+
+main .vehicle .container .col-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .vehicle .container .col-12 .info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .vehicle .container .col-12 .info-container a {
+  margin-top: 3px;
+  width: 150px;
+  height: 45px;
+  background-color: rgba(128, 128, 128, 0.158);
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+main .vehicle .container .col-12 .cars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+main .vehicle .container .col-12 .cars .row .col-4 .menu-img.active {
+  display: block;
+}
+
+main .vehicle .container .col-12 .cars .row .col-4 .menu-img {
+  display: none;
+}
+
+main .vehicle .container .col-12 .cars .row .col-8 .menu-item.active {
+  display: block;
+}
+
+main .vehicle .container .col-12 .cars .row .col-8 .menu-item.active li {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .vehicle .container .col-12 .cars .row .col-8 .menu-item {
+  display: none;
+}
+
+main .maps-container .col-12 .maps {
+  width: 100%;
+  height: 150px;
+  margin-bottom: -150px;
+}
+
+main .maps-container .col-12 .form {
+  margin-top: 20px;
+  margin-left: 900px;
+}
+
+footer {
+  width: 100%;
+  height: 60%;
+  background-color: green;
+}
+
+@media only screen and (max-width: 1000px) {
+  main .slider .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .slider .container .title {
+    width: 100%;
+  }
+  main .slider .container .title h1 {
+    font-size: 30px;
+  }
+  main .slider .container .title p {
+    font-size: 15px;
+  }
+  main .slider .container .card {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
